@@ -28,8 +28,17 @@ Under the hood
     
     When we call bool(100) Python actually executes 100.__bool__()
     and therefore returns the result of 100 != 0  -> True
-    
-    
 
+    
+    bool([])
+
+            if my_list:
+                # code block
+
+            code block will execute if and only if my_list is both not None and not empty
+
+            this is equivalent to:
+            if my_list is not None and len(my_list) > 0:
+                # code block
 
 """
