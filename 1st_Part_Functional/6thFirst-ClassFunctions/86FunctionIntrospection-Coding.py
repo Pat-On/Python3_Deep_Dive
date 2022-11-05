@@ -1,16 +1,18 @@
+# type: ignore
 # Function Inspection
 import inspect
 from inspect import isfunction, ismethod, isroutine
 
 
-def my_func(a: "mandatory positional",
-            b: "optional" = 1,
-            c=2,
-            *args: "add extra positional here",
-            kw1,
-            kw2=100,
-            kw3=200,
-            **kwargs) -> "does nothing":
+def my_func(
+    a: 'mandatory positional',
+    b: "optional" = 1,
+    c=2,
+    *args: "add extra positional here",
+    kw1,
+    kw2=100,
+    kw3=200,
+        **kwargs) -> "does nothing":
     """does something or other"""
     i = 10
     j = 20
