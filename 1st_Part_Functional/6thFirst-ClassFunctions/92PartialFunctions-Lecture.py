@@ -70,4 +70,9 @@ a = 100                     <- a now points to a different memory address but th
 
 f(20,30) -> 10, 20, 30
 
+if a is mutable (e.g. a list), then it is contents can be changed
+
+
+
+
 """
