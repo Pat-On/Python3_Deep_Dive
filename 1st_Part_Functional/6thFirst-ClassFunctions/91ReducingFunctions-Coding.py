@@ -46,3 +46,20 @@ print("*" * 80)
 
 l = []
 print(reduce(lambda x, y: x*y, l, 0))
+
+
+# ----------------------------------------------------------------
+
+def _reduce(fn, sequence, initial=0):
+    result = initial
+    for x in sequence:
+        result = fn(result, x)
+    return result
+
+
+l = [5, 8, 6, 10, 9]
+
+print(_reduce(lambda a, b: a+b, l, 100))
+print(_reduce(lambda a, b: a*b, l, 1))
+
+print(_reduce(lambda a, b: a*b, {1, 2, 3, 4}, 1))
