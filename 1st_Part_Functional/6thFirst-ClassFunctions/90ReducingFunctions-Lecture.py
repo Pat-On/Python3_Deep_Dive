@@ -33,10 +33,10 @@
 
     
     def _reduce(fn, sequence):              <- NICE
-    result = sequence[0]
-    for e in sequence[1:]:
-        result = fn(result, x)
-    return result
+        result = sequence[0]
+        for e in sequence[1:]:
+            result = fn(result, x)
+        return result
 
     _reduce(lambda a, b: a if a > b else b, l) -> maximum
 
