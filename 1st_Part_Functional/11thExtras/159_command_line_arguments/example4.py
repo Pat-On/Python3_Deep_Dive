@@ -7,7 +7,7 @@
 # we'll use the convention that the input name is prefixed by --
 # and followed by the value itself
 
-# something like: python example4.py --last-name Cleese --first-name John
+# something like: python3 example4.py --last-name Cleese --first-name John
 
 import sys
 

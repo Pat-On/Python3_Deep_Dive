@@ -8,7 +8,6 @@
 # and values passed on the command line
 
 
-
 import sys
 
 print(sys.argv)
@@ -24,9 +23,6 @@ print(sys.argv)
 # ['example1.py', '[1,', '2,', '3]', '[4,', '5,', '6]']
 
 # or even this example:
-# python example1.py --name John --years 1980 1981 1982
+# python3 example1.py --name John --years 1980 1981 1982
 # Output:
 # ['example1.py', '--name', 'John', '--years', '1980', '1981', '1982']
-
-
-

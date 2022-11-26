@@ -20,7 +20,7 @@ last_name = args.get('--last-name')
 print(first_name, last_name)
 
 # call it this way:
-# python example5.py --last-name Cleese --first-name John
+# python3 example5.py --last-name Cleese --first-name John
 
 # so we can certainly take this approach, but it's going to
 # get quite tedious, and we really want more functionality
